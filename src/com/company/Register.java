@@ -12,15 +12,12 @@ package com.company;
 
 public class Register {
 
-    private Integer ID;
+    private Integer ID, numberDocument;
     private String name;
-    private Integer numberDocument;
-
 
     public Register() {
 
     }
-
 
 
     public Integer getID() {

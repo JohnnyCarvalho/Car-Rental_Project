@@ -8,39 +8,40 @@ package com.company;
 
 public class Users extends Register {
 
-    private Integer ID;
-    private String name;
-    private Integer birthDate;
-    private Integer numberDocument;
-    private String email;
-    private Integer numberPhone;
-    private String street;
-    private String city;
-    private Integer numberHome;
-    private Integer zipCode;
-
+    private Integer birthDate, numberPhone, numberHome, zipCode;
+    private String email, street, city;
 
     public Users() {
     }
 
     @Override
     public Integer getID() {
-        return ID;
+        return super.getID();
     }
 
     @Override
     public void setID(Integer ID) {
-        this.ID = ID;
+        super.setID(ID);
     }
 
     @Override
     public String getName() {
-        return name;
+        return super.getName();
     }
 
     @Override
     public void setName(String name) {
-        this.name = name;
+        super.setName(name);
+    }
+
+    @Override
+    public Integer getNumberDocument() {
+        return super.getNumberDocument();
+    }
+
+    @Override
+    public void setNumberDocument(Integer numberDocument) {
+        super.setNumberDocument(numberDocument);
     }
 
     public Integer getBirthDate() {
@@ -49,16 +50,6 @@ public class Users extends Register {
 
     public void setBirthDate(Integer birthDate) {
         this.birthDate = birthDate;
-    }
-
-    @Override
-    public Integer getNumberDocument() {
-        return numberDocument;
-    }
-
-    @Override
-    public void setNumberDocument(Integer numberDocument) {
-        this.numberDocument = numberDocument;
     }
 
     public String getEmail() {

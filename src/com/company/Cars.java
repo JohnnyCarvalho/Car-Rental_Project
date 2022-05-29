@@ -8,33 +8,40 @@ package com.company;
 
 public class Cars extends Register {
 
-    private Integer ID;
-    private String name;
-    private String carBrand;
-    private Integer numberDocument;
     private Integer modelYear;
+    private String carBrand;
 
-    public Cars() {
-    }
+    public Cars() {}
+
 
     @Override
     public Integer getID() {
-        return ID;
+        return super.getID();
     }
 
     @Override
     public void setID(Integer ID) {
-        this.ID = ID;
+        super.setID(ID);
     }
 
     @Override
     public String getName() {
-        return name;
+        return super.getName();
     }
 
     @Override
     public void setName(String name) {
-        this.name = name;
+        super.setName(name);
+    }
+
+    @Override
+    public Integer getNumberDocument() {
+        return super.getNumberDocument();
+    }
+
+    @Override
+    public void setNumberDocument(Integer numberDocument) {
+        super.setNumberDocument(numberDocument);
     }
 
     public String getCarBrand() {
@@ -45,15 +52,6 @@ public class Cars extends Register {
         this.carBrand = carBrand;
     }
 
-    @Override
-    public Integer getNumberDocument() {
-        return numberDocument;
-    }
-
-    @Override
-    public void setNumberDocument(Integer numberDocument) {
-        this.numberDocument = numberDocument;
-    }
 
     public Integer getModelYear() {
         return modelYear;
@@ -62,4 +60,5 @@ public class Cars extends Register {
     public void setModelYear(Integer modelYear) {
         this.modelYear = modelYear;
     }
+
 }
