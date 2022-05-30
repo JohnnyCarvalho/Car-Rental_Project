@@ -6,10 +6,13 @@
 
 package com.company;
 
+import java.util.ArrayList;
+
 public class Cars extends Register {
 
     private Integer modelYear;
     private String carBrand;
+    ArrayList listCar = new ArrayList();
 
     public Cars() {}
 

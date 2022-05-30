@@ -6,10 +6,13 @@
 
 package com.company;
 
+import java.util.ArrayList;
+
 public class Users extends Register {
 
     private Integer birthDate, numberPhone, numberHome, zipCode;
     private String email, street, city;
+    ArrayList listUser = new ArrayList();
 
     public Users() {
     }
@@ -98,5 +101,14 @@ public class Users extends Register {
 
     public void setZipCode(Integer zipCode) {
         this.zipCode = zipCode;
+    }
+
+    public ArrayList getListUser() {
+        return listUser;
+    }
+
+    public void setListUser(ArrayList listUser) {
+        this.listUser = listUser;
+
     }
 }

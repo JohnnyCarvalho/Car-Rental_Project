@@ -1,8 +1,12 @@
 package com.company;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Login {
+
+    public static ArrayList<Users> newUsers;
+    public static ArrayList<Cars> neCars;
 
     public static void main(String[] args) {
         // Create a variable for update writing color in command prompt

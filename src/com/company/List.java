@@ -6,5 +6,15 @@
 
 package com.company;
 
-public class Stock {
+import java.util.ArrayList;
+
+public class List extends Register {
+
+
+
+
+
+
+
+
 }
