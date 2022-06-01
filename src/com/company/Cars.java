@@ -64,4 +64,8 @@ public class Cars extends Register {
         this.modelYear = modelYear;
     }
 
+    public void saidaDeDados () {
+        System.out.println("*** DADOS DO VEÍCULO ***");
+    }
+
 }

@@ -30,7 +30,7 @@ public class Login {
 
         if (register == 1) {
 
-            System.out.println(color+"32"+"m"+"DIGITE OS DADOS ABAIXO CONFORME REQUERIDO"+color+"m");
+            System.out.println(color+"32"+"m"+"DIGITE OS DADOS DO VEÍCULO"+color+"m");
 
             System.out.print("Código: ");
             newCars.setID(input.nextInt());input.nextLine();
@@ -50,7 +50,7 @@ public class Login {
         }
         else if (register == 2) {
 
-            System.out.println(color+"35"+"m"+"DIGITE OS DADOS ABAIXO CONFORME REQUERIDO"+color+"m");
+            System.out.println(color+"35"+"m"+"DIGITE OS DADOS DO USUÁRIO"+color+"m");
 
             System.out.print("Id usuário (somente números): ");
             newUsers.setID(input.nextInt());input.nextLine();
@@ -82,5 +82,8 @@ public class Login {
             System.out.print("Ano nascimento: ");
             newUsers.setBirthDate(input.nextInt());input.nextLine();
         }
+
+
+
     }
 }

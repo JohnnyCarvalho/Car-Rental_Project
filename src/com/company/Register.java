@@ -43,4 +43,11 @@ public class Register {
     public void setNumberDocument(Integer numberDocument) {
         this.numberDocument = numberDocument;
     }
+
+    public void saidaDeDados () {
+        System.out.println("*** SEGUE A LISTA CADSTRADA ***");
+        System.out.println("ID: "+getID());
+        System.out.println("Name: "+getName());
+        System.out.println("Document: "+getNumberDocument());
+    }
 }

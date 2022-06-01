@@ -17,6 +17,16 @@ public class Users extends Register {
     public Users() {
     }
 
+    public Users(Integer birthDate, Integer numberPhone, Integer numberHome, Integer zipCode, String email, String street, String city) {
+        this.birthDate = birthDate;
+        this.numberPhone = numberPhone;
+        this.numberHome = numberHome;
+        this.zipCode = zipCode;
+        this.email = email;
+        this.street = street;
+        this.city = city;
+    }
+
     @Override
     public Integer getID() {
         return super.getID();
@@ -110,5 +120,17 @@ public class Users extends Register {
     public void setListUser(ArrayList listUser) {
         this.listUser = listUser;
 
+    }
+
+    public void saidaDeDados() {
+        System.out.println("*** DADOS DE USUÁRIOS ***");
+        super.saidaDeDados();
+        System.out.println("E-mail: "+getEmail());
+        System.out.println("Nascimento: "+getBirthDate());
+        System.out.println("Celular: "+getNumberPhone());
+        System.out.println("ENDEREÇO");
+        System.out.println("Rua: "+getStreet());
+        System.out.println("Nº residência: "+getNumberHome());
+        System.out.println("Cidade: "+getCity());
     }
 }
