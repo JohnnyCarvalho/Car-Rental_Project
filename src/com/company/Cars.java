@@ -12,10 +12,18 @@ public class Cars extends Register {
 
     private Integer modelYear;
     private String carBrand;
-    ArrayList listCar = new ArrayList();
+    ArrayList list = new ArrayList();
 
     public Cars() {}
 
+    public Cars(Integer getId, String getName, String getNumberDocument, Integer modelYear, String carBrand) {
+        super.getID();
+        super.getName();
+        super.getNumberDocument();
+        this.modelYear = modelYear;
+        this.carBrand = carBrand;
+
+    }
 
     @Override
     public Integer getID() {
@@ -38,12 +46,12 @@ public class Cars extends Register {
     }
 
     @Override
-    public Integer getNumberDocument() {
+    public String getNumberDocument() {
         return super.getNumberDocument();
     }
 
     @Override
-    public void setNumberDocument(Integer numberDocument) {
+    public void setNumberDocument(String numberDocument) {
         super.setNumberDocument(numberDocument);
     }
 
@@ -64,8 +72,21 @@ public class Cars extends Register {
         this.modelYear = modelYear;
     }
 
+    @Override
+    public ArrayList getList() {
+        return list;
+    }
+
+    @Override
+    public void setList(ArrayList list) {
+        this.list = list;
+    }
+
     public void saidaDeDados () {
         System.out.println("*** DADOS DO VEÍCULO ***");
+        super.saidaDeDados();
+        System.out.println("Marca: "+getCarBrand());
+        System.out.println("Ano modelo: "+getModelYear());
     }
 
 }

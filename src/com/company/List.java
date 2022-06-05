@@ -10,11 +10,19 @@ import java.util.ArrayList;
 
 public class List extends Register {
 
+    ArrayList list = new ArrayList();
 
 
 
+    public List(ArrayList list) {
+        this.list = list;
+    }
+    @Override
+    public ArrayList getList() {
+        return list;
+    }
 
-
-
-
+    public void setList(ArrayList list) {
+        this.list = list;
+    }
 }

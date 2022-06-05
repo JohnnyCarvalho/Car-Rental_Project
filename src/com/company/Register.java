@@ -10,10 +10,13 @@
 
 package com.company;
 
+import java.util.ArrayList;
+
 public class Register {
 
-    private Integer ID, numberDocument;
-    private String name;
+    private Integer ID;
+    private String name, numberDocument;
+    public ArrayList list = new ArrayList();
 
     public Register() {
 
@@ -36,12 +39,20 @@ public class Register {
         this.name = name;
     }
 
-    public Integer getNumberDocument() {
+    public String getNumberDocument() {
         return numberDocument;
     }
 
-    public void setNumberDocument(Integer numberDocument) {
+    public void setNumberDocument(String numberDocument) {
         this.numberDocument = numberDocument;
+    }
+
+    public ArrayList getList() {
+        return list;
+    }
+
+    public void setList(ArrayList list) {
+        this.list = list;
     }
 
     public void saidaDeDados () {

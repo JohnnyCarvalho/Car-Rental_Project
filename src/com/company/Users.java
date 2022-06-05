@@ -12,7 +12,7 @@ public class Users extends Register {
 
     private Integer birthDate, numberPhone, numberHome, zipCode;
     private String email, street, city;
-    ArrayList listUser = new ArrayList();
+    ArrayList list = new ArrayList();
 
     public Users() {
     }
@@ -48,12 +48,12 @@ public class Users extends Register {
     }
 
     @Override
-    public Integer getNumberDocument() {
+    public String getNumberDocument() {
         return super.getNumberDocument();
     }
 
     @Override
-    public void setNumberDocument(Integer numberDocument) {
+    public void setNumberDocument(String numberDocument) {
         super.setNumberDocument(numberDocument);
     }
 
@@ -113,17 +113,18 @@ public class Users extends Register {
         this.zipCode = zipCode;
     }
 
-    public ArrayList getListUser() {
-        return listUser;
+    @Override
+    public ArrayList getList() {
+        return list;
     }
 
-    public void setListUser(ArrayList listUser) {
-        this.listUser = listUser;
+    public void setList(ArrayList listUser) {
+        this.list = listUser;
 
     }
 
     public void saidaDeDados() {
-        System.out.println("*** DADOS DE USUÁRIOS ***");
+        System.out.println("@@");
         super.saidaDeDados();
         System.out.println("E-mail: "+getEmail());
         System.out.println("Nascimento: "+getBirthDate());
