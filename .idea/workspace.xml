@@ -21,12 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0279ad00-7f76-4510-876c-46f2ec9af735" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Car-Rental_Project/com/company/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Car-Rental_Project/com/company/Login.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Cars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Cars.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/List.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/List.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Register.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Users.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
